@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML SEMANTICS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        /* font-family: sans-serif; */
+      }
+      .title {
+        color: rgb(194, 194, 194);
+        text-align: center;
+      }
+      .title-nav {
+        background-color: #444444;
+        margin-bottom: 30px;
+        padding: 8px;
+      }
+      .container {
+        width: 700px;
+        background-color: #f7f6f1;
+        border-bottom: 3px solid #444444;
+        margin: 10px;
+      }
+      .form {
+        width: 200px;
+        margin: 20px auto;
+        color: #9e9d98;
+      }
+      input {
+        margin: 8px;
+      }
+      .quesion-title {
+        text-align: center;
+        color: #9e9d98;
+        font-size: 32px;
+      }
+      button {
+        background-color: #3a8ea6;
+        color: #f7f6f1;
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 4px;
+      }
+      .btn {
+        margin: 40px auto;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <nav class="title-nav">
+        <h2 class="title">Quiz on Important Facts</h2>
+      </nav>
+      <main>
+        <p class="quesion-title">
+          Which one of these is a Javascript package manager?
+        </p>
+        <form class="form">
+          <div>
+            <input
+              type="radio"
+              id="nodejs"
+              name="nodejs"
+              value="nodejs"
+              checked
+            />
+            <label for="nodejs">a: Node.js</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="typescript"
+              name="typescript"
+              value="typescript"
+            />
+            <label for="typescript">b: TypeScript</label>
+          </div>
+
+          <div>
+            <input type="radio" id="npm" name="npm" value="npm" />
+            <label for="npm">c: npm</label>
+          </div>
+        </form>
+      </main>
+      <div class="btn">
+        <button class="prevbtn">Previous Question</button>
+        <button class="nextbtn">Next Question</button>
+      </div>
+    </section>
+  </body>
+</html>
