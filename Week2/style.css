@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 800px;
+  background-color: #dee2e6;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header {
+  color: #343a40;
+  text-align: center;
+}
+.class-teacher {
+  font-weight: bold;
+  font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 12px 10px;
+}
+
+th {
+  background-color: #63e6be;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f1f3f5;
+}
