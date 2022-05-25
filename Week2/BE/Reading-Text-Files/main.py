@@ -12,7 +12,7 @@ def read_file_content(filename):
 
 
 def count_words():
-    text = read_file_content("story.txt")
+    text = read_file_content("./story.txt")
     # [assignment] Add your code here
     text_list = text.split()
     output_counter = {}
