@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+.container {
+  margin: 30px auto;
+  width: 900px;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+a:link {
+  color: #444;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+a:visited {
+  color: #444;
+}
+.bio {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.school {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h3 {
+  font-size: 24px;
+}
+article {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+li {
+  list-style: square;
+}
+.contact,
+.register {
+  margin: 40px 0;
+}
+.title-content {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form-item {
+  padding: 10px;
+  font-size: 24px;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+input,
+textarea {
+  padding: 20px;
+}
+button {
+  padding: 20px;
+  grid-column: 1 / -1;
+  /* margin: 10px auto; */
+}
+input,
+select,
+textarea {
+  width: 100%;
+}
+.login-item {
+  grid-column: 1 / -1;
+}
